@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hotel PetBugos</title>
+	<link rel="shortcut icon" href="./images/favicon/favicon.png" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chicle&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+	<header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+		<div class="container">
+			<h1 class="navbar-brand m-0 fs-2 font-pacifico">Hotel PetBugos</h1>
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<nav id="menu" class="navbar-collapse collapse justify-content-end ">
+				<ul class="nav nav-pills d-block d-lg-flex mt-3">
+					<li class="nav-item fw-bold">
+						<a href="#sobre" class="nav-link">
+							<i class="bi bi-house-door me-1"></i>
+							Sobre
+						</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#servicos" class="nav-link">
+							<i class="bi bi-calendar-check me-1"></i>
+							Serviços
+						</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#galeria" class="nav-link">
+							<i class="bi bi-images me-1"></i>
+							Galeria
+						</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#contato" class="nav-link">
+							<i class="bi bi-chat-left-text me-1"></i>
+							Fale Conosco
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+		<section>
+			<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="./images/slides/slide1.jpg" alt="Fotografia do espaço interno do restaurante">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="./images/slides/slide2.jpg" alt="Duas taças de vinho">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="./images/slides/slide3.jpg" alt="Uma mesa com um prato do restaurante">
+					</div>
+				</div>
+				<button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+				</div>
+			</div>
+		</section>
+
+		<section id="sobre">
+			<div class="container pt-5 pb-5">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="./images/hotel.jpg" alt="Foto do espaço interno do restaurante" class="d-block w-100 rounded">
+					</div>
+					<div class="col-md-7 mt-3 mt-md-0">
+						<h2 class="font-pacifico">Sobre <span class="c0">o hotel</span></h2>
+						<p>Bem-vindo ao Hotel PetBugos, o hotel de cachorros dos sonhos para nossos peludos de quatro patas! Nossas instalações foram meticulosamente projetadas para oferecer um espaço amplo e acolhedor, onde os cãezinhos podem correr, brincar e interagir em um ambiente seguro e supervisionado. Com espaçosos quartos individuais equipados com camas macias e brinquedos divertidos, garantimos que cada hóspede canino se sinta em casa.</p>
+						<h3 class="font-pacifico">Nossa <span class="c0">equipe</span></h3>
+						<p>Além disso, nosso hotel é conhecido por sua atmosfera alegre e amigável, com inúmeros encontros sociais e atividades divertidas para manter os peludos entretidos durante toda a estadia. Nossos funcionários apaixonados e treinados são especialistas em cuidados com animais, assegurando que todos os pets recebam atenção personalizada, alimentação adequada e, é claro, muitos carinhos e afagos.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="servicos">
+			<div class="container pt-5 pb-5">
+				<div class="row mb-4">
+					<h2 class="font-pacifico text-center">Nossos <span class="c0">serviços</span></h2>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<img src="./images/servicos/creche.jpg" alt="Filhotes de cachorro" class="d-block w-100 rounded mb-2">
+						<h3 class="font-pacifico c0 fs-4"><i class="bi bi-balloon-fill me-2"></i>Creche</h3>
+						<p>Proporcionamos um ambiente seguro e divertido, onde os cãezinhos podem socializar, brincar e receber atenção amorosa durante o dia.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="./images/servicos/hotel.jpg" alt="Cachorro dachshund deitado na poltrona" class="d-block w-100 rounded mb-2">
+						<h3 class="font-pacifico c0 fs-4"><i class="bi bi-house-check-fill me-2"></i>Hotel</h3>
+						<p>Seu melhor amigo merece uma estadia confortável e aconchegante em nossas instalações, com quartos espaçosos, cuidados dedicados e atividades recreativas.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="./images/servicos/adestramento.jpg" alt="Cachorro pitbull deitado no chão" class="d-block w-100 rounded mb-2">
+						<h3 class="font-pacifico c0 fs-4"><i class="bi bi-award-fill me-2"></i>Adestramento</h3>
+						<p>Nossos especialistas em comportamento canino ajudarão a desenvolver habilidades e obediência em seu cão, garantindo uma convivência harmoniosa e feliz.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="galeria">
+			<div class="container pt-5 pb-5">
+				<div class="row mb-4">
+					<h2 class="font-pacifico text-center">Nossa <span class="c0">galeria</span></h2>
+				</div>
+
+				<div class="row">
+					<aside class="col-md-2">
+						<nav class="nav nav-pills nav-galeria flex-column">
+							<button type="button" data-bs-toggle="tab" data-bs-target="#soneca" class="nav-link c0 fw-bold text-start active">Soneca</button>
+							<button type="button" data-bs-toggle="tab" data-bs-target="#atividades" class="nav-link c0 fw-bold text-start">Atividades</button>
+							<button type="button" data-bs-toggle="tab" data-bs-target="#creche" class="nav-link c0 fw-bold text-start">Creche</button>
+							<button type="button" data-bs-toggle="tab" data-bs-target="#casinhas" class="nav-link c0 fw-bold text-start">Casinhas</button>
+						</nav>
+					</aside>
+					<div class="col-md-10">
+						<div class="tab-content">
+							<div id="soneca" class="tab-pane active">
+								<div class="row">
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca1.jpg" alt="Coca-cola" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca2.jpg" alt="Suco de Laranja" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca3.jpg" alt="Coca-cola" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca4.jpg" alt="Suco de Laranja" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca5.jpg" alt="Coca-cola" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/soneca/soneca6.jpg" alt="Suco de Laranja" class="d-block w-100 rounded">
+									</div>
+								</div>
+							</div>
+
+							<div id="atividades" class="tab-pane">
+								<div class="row">
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade1.jpg" alt="Cerveja" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade2.jpg" alt="Vinho" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade3.jpg" alt="Cerveja" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade4.jpg" alt="Vinho" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade5.jpg" alt="Cerveja" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/atividades/atividade6.jpg" alt="Vinho" class="d-block w-100 rounded">
+									</div>
+								</div>
+							</div>
+
+							<div id="creche" class="tab-pane">
+								<div class="row">
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche1.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche2.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche3.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche4.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche5.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/creche/creche6.jpg" alt="Combinação de entradas" class="d-block w-100 rounded">
+									</div>
+								</div>
+							</div>
+
+							<div id="casinhas" class="tab-pane">
+								<div class="row">
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha1.jpg" alt="Pizza" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha2.jpg" alt="Salmão" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha3.jpg" alt="Pizza" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha4.jpg" alt="Salmão" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha5.jpg" alt="Pizza" class="d-block w-100 rounded">
+									</div>
+									<div class="col-md-3 mb-4">
+										<img src="./images/galeria/casinhas/casinha6.jpg" alt="Salmão" class="d-block w-100 rounded">
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contato">
+			<div class="container pt-5 pb-5">
+				<div class="row">
+					<h2 class="font-pacifico text-center">Fale <span class="c0">conosco</span></h2>
+				</div>
+				<div class="row">
+					<div class="col-md-7 mb-5">
+						<form>
+							<div class="mb-3">
+								<label for="nome" class="form-label fw-bold c0">Seu nome</label>
+								<input type="text" name="nome" id="nome" class="form-control">
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label fw-bold c0">Seu e-mail</label>
+								<input type="email" name="email" id="email" class="form-control">
+							</div>
+							<div class="mb-3">
+								<label for="telefone" class="form-label fw-bold c0">Seu telefone (Opcional)</label>
+								<input type="tel" name="telefone" id="telefone" class="form-control">
+							</div>
+							<div class="mb-3">
+								<label for="mensagem" class="form-label fw-bold c0">Sua mensagem</label>
+								<textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+							</div>
+							<button type="submit" class="btn fw-bold">Enviar</button>
+						</form>
+					</div>
+
+					<div class="col-md-5">
+						<div class="row">
+							<h3 class="font-pacifico fs-4 c0">
+								<i class="bi bi-hand-thumbs-up-fill"></i>
+								Redes Sociais
+							</h3>
+							<ul class="social-links">
+								<li class="fs-5">
+									<a href="">
+										<i class="bi bi-facebook c0"></i>
+									</a>
+								</li>
+								<li class="fs-5 ms-1 me-1">
+									<a href="">
+										<i class="bi bi-instagram c0"></i>
+									</a>
+								</li>
+								<li class="fs-5">
+									<a href="">
+										<i class="bi bi-whatsapp c0"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="row mt-4">
+							<h3 class="font-pacifico fs-4 c0">
+								<i class="bi bi-cursor-fill"></i>
+								Endereço
+							</h3>
+							<p>Rua Polaquinho Gordo, 145 - Vila Carrão - São Paulo, SP</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="./js/jquery.mask.min.js"></script>
+	<script src="./js/jquery.validate.min.js"></script>
+	<script src="./js/messages_pt_BR.min.js"></script>
+	<script src="./js/scripts.js"></script>
+</body>
+
+</html>
